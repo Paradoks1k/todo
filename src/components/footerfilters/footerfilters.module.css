@@ -1,0 +1,23 @@
+.filter {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.Item {
+  display: inline;
+}
+
+.link {
+  color: inherit;
+  margin: 0.2rem;
+  padding: 0.2rem 0.4rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.filterLink:hover {
+  border-color: #db7676;
+}
